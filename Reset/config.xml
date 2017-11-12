@@ -1,12 +1,12 @@
 <configuration>
 	<!-- CLOUD SETTINGS -->
-	<storageConnectionString>YOURSTORAGECONNECTIONSTRING</storageConnectionString>
+	<storageConnectionString>DefaultEndpointsProtocol=https;AccountName=techmldemostor;AccountKey=dI9NF8qxQKtqgDAN/j8NaLGgzYJ81mNosbI9aSGdFeTwR6v+M5tpQT5B02zEXsylndPxuEsLd+UYcWWEA1UcCg==;EndpointSuffix=core.windows.net</storageConnectionString>
 	<containerName>input-images</containerName>
 	<queueName>review-queue</queueName>
 	<queueNameLocal>review-queue-local</queueNameLocal>
 
-	<documentDbEndpoint>YOURCOSMOSDBENDPOINT</documentDbEndpoint>
-	<documentDbKey>YOURCOSMOSDBKEY</documentDbKey>
+	<documentDbEndpoint>https://techmldemodocdb.documents.azure.com:443/</documentDbEndpoint>
+	<documentDbKey>TTKz7EyLcgnjSi6HagEQDVnVaRKy4aVrFcnepaMZPwfwJj6ODhIaG4J0h5kt2Q2XmS96LewOWEuPFa4xMNc5cw==</documentDbKey>
 	<documentDbName>customerReviewData</documentDbName>
 	<documentDbCollName>reviews</documentDbCollName>
 	<documentDbPartKeyPath>/reviewId</documentDbPartKeyPath>
